@@ -1,6 +1,6 @@
 //-----------------------------------//
 // کد ها مربوط به ریسپانسیو سازی هدر
-
+//responsive mobile menu
 
 let header= document.getElementById('header');
 let mobileMenu= document.getElementById('mobile-menu');
@@ -21,9 +21,13 @@ mobileMenu.onclick = function(){
 //با اینکه مسیر عکس ها درست وارد شده،در اجرای عادی تصاویر در اسلایدر در فایل اچ دی ام ال نمایش داده نمی شن
 //اما وقتی پروژه بهصورت لوکال هاست اجرا میشود،همه چیز به درستی کار میکند و این نشون دهنده ان است که کدها به درستی اجرا می شوند
 
+//Although the image paths are entered correctly, 
+//when running the HTML file directly (using the `file://` protocol),
+//the slider images don’t display. However, when the project is served via a local host,
+//everything works as expected. This confirms that the code is correct and the issue lies solely in how the project is being run locally
 
-/*
-const slides = [
+
+/*const slides = [
     {   
         image:`url(../Imgs/Slide/ny.jpg)`, 
         title: " New York " ,
@@ -53,5 +57,6 @@ const slides = [
   setInterval(() => {
     current = (current + 1) % slides.length;
     showSlide(current);
-  }, 4000); /*
+  }, 4000);
+  */
   
