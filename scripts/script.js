@@ -24,7 +24,7 @@ mobileMenu.onclick = function(){
 //Although the image paths are entered correctly, 
 //when running the HTML file directly (using the `file://` protocol),
 //the slider images don’t display. However, when the project is served via a local host,
-//everything works as expected. This confirms that the code is correct and the issue lies solely in how the project is being run locally
+//everything works as expected. This confirms that the code is correct.
 
 
 /*const slides = [
