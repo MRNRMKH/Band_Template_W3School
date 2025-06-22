@@ -22,6 +22,7 @@ mobileMenu.onclick = function(){
 //اما وقتی پروژه بهصورت لوکال هاست اجرا میشود،همه چیز به درستی کار میکند و این نشون دهنده ان است که کدها به درستی اجرا می شوند
 
 
+/*
 const slides = [
     {   
         image:`url(../Imgs/Slide/ny.jpg)`, 
@@ -52,5 +53,5 @@ const slides = [
   setInterval(() => {
     current = (current + 1) % slides.length;
     showSlide(current);
-  }, 4000); 
+  }, 4000); /*
   
